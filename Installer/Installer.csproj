@@ -98,15 +98,6 @@
     <ApplicationIcon>Resources\PMUInstaller.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PMU.Compression">
-      <HintPath>..\..\framework\compression\build\PMU.Compression.dll</HintPath>
-    </Reference>
-    <Reference Include="PMU.Core">
-      <HintPath>..\..\framework\core\build\PMU.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="PMU.Net, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\framework\net\build\PMU.Net.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -325,6 +316,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\exclamation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\framework-compression\Compression\PMU.Compression.csproj">
+      <Project>{496e2a61-21b4-4403-91db-60b1f7826684}</Project>
+      <Name>PMU.Compression</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\framework-core\Core\PMU.Core.csproj">
+      <Project>{2bd1eb8d-04db-4c04-9ab8-8965b42e7cf1}</Project>
+      <Name>PMU.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\framework-net\Net\PMU.Net.csproj">
+      <Project>{1847a683-b574-4236-947e-ea2130c2648a}</Project>
+      <Name>PMU.Net</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

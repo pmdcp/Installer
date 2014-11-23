@@ -1,0 +1,9 @@
+[submodule "framework-core"]
+	path = framework-core
+	url = https://github.com/pmdcp/framework-core
+[submodule "framework-compression"]
+	path = framework-compression
+	url = https://github.com/pmdcp/framework-compression
+[submodule "framework-net"]
+	path = framework-net
+	url = https://github.com/pmdcp/framework-net
