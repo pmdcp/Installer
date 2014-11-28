@@ -7,3 +7,6 @@
 [submodule "framework-net"]
 	path = framework-net
 	url = https://github.com/pmdcp/framework-net
+[submodule "framework"]
+	path = framework
+	url = https://github.com/pmdcp/framework

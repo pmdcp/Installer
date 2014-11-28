@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Installer", "Installer\Installer.csproj", "{7D22C34C-FDB7-43B2-8FDB-3FAF0C0EBB24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMU.Compression", "framework-compression\Compression\PMU.Compression.csproj", "{496E2A61-21B4-4403-91DB-60B1F7826684}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMU.Compression", "framework\Compression\PMU.Compression.csproj", "{496E2A61-21B4-4403-91DB-60B1F7826684}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMU.Core", "framework-core\Core\PMU.Core.csproj", "{2BD1EB8D-04DB-4C04-9AB8-8965B42E7CF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMU.Core", "framework\Core\PMU.Core.csproj", "{2BD1EB8D-04DB-4C04-9AB8-8965B42E7CF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMU.Net", "framework-net\Net\PMU.Net.csproj", "{1847A683-B574-4236-947E-EA2130C2648A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMU.Net", "framework\Net\PMU.Net.csproj", "{1847A683-B574-4236-947E-EA2130C2648A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

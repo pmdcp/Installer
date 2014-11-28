@@ -318,15 +318,15 @@
     <Content Include="Resources\exclamation.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\framework-compression\Compression\PMU.Compression.csproj">
+    <ProjectReference Include="..\framework\Compression\PMU.Compression.csproj">
       <Project>{496e2a61-21b4-4403-91db-60b1f7826684}</Project>
       <Name>PMU.Compression</Name>
     </ProjectReference>
-    <ProjectReference Include="..\framework-core\Core\PMU.Core.csproj">
+    <ProjectReference Include="..\framework\Core\PMU.Core.csproj">
       <Project>{2bd1eb8d-04db-4c04-9ab8-8965b42e7cf1}</Project>
       <Name>PMU.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\framework-net\Net\PMU.Net.csproj">
+    <ProjectReference Include="..\framework\Net\PMU.Net.csproj">
       <Project>{1847a683-b574-4236-947e-ea2130c2648a}</Project>
       <Name>PMU.Net</Name>
     </ProjectReference>
